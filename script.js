@@ -48,7 +48,7 @@ var a="";
  12>h?time=h+":"+t+" am":time=(h-12)+":"+t+" pm";
 
  //Questions are here --?
-
+ var t1=["வணக்கம்"];
  var hello=["HELLO","HI","HEY THERE","HEY","HI DUDE"];
  var gm=["GM","GOOD MORNING","GOOD MORNING Smarthood", "GOOD MORNING Achraf"];
  var bad=["BAD","NOT BAD","USELESS","NOT WORKING","NOT GOOD"];
@@ -155,6 +155,7 @@ isInArray(r14,lastmsg)==true?(smsg="Ramco Institute of Technology,  College run 
 isInArray(r15,lastmsg)==true?(smsg="Mr. J Meghanatha Reddy I.A.S",k=smsg):
 isInArray(r16,lastmsg)==true?(smsg="626001,626002,626003"):
 isInArray(r17,lastmsg)==true?(smsg="TN-67"):
+isInArray(t1,lastmsg)==true?(smsg="வணக்கம்! உங்கள் தேவையை கூறுங்கள்"):
 
 
 lastmsg.substring(0, 26)=="DIRECT ME TO NEW BUS STAND"?(locate=lastmsg.slice(7),smsg="<b align='center'>This are the top results </b><a href='https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d51654.69906007152!2d77.50112433888228!3d9.45676761548668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3b06e889902bcc45%3A0x789aff6d63c7062a!2sRamco%20Institute%20of%20Technology%2C%20Main%20Building%2C%20Rajapalayam%2C%20Tamil%20Nadu!3m2!1d9.482225699999999!2d77.5142869!4m5!1s0x3b06e9e0afbea17d%3A0x55350c3975f07599!2sRajapalayam%20New%20Bus%20Stand%2C%20State%20Highway%2041%2C%20Intuc%20Nagar%2C%20Rajapalayam%2C%20Tamil%20Nadu!3m2!1d9.431418899999999!2d77.55793299999999!5e1!3m2!1sen!2sin!4v1648202191326!5m2!1sen!2sin' style = 'z-index:1;overflow-x:scroll; overflow-y:scroll;' scrolling='yes' height='300px' width='100%'></iframe>",k="Direction to new bus stand" ):
