@@ -31,7 +31,7 @@ var para = $("<div class='message sent'>"+convert(msg)+"<span class='metadata'> 
 msg==""?$("#val").focus():($("#ap").append(para),$(".status").css("margin-left","0"),
 $("#form")[0].reset(),setTimeout(function(){$(".status").html("online ")},900),setTimeout(function(){$(".status").html("typing... ")},1000),lastmsg=msg.toUpperCase().trim(),$(".conversation-container").scrollTop(scroll),send());
 });
-$("#name").html("உழவரன்'s Bot");
+$("#name").html("உழவன்'s Bot");
 function send(){
 var sr=lastmsg.split(" ");
 var search="";
